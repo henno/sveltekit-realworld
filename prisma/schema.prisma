@@ -1,0 +1,15 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlserver"
+  url      = env("DATABASE_URL")
+}
+
+model Todo {
+  uid        String   @id
+  created_at DateTime
+  text       String
+  done       Boolean
+}

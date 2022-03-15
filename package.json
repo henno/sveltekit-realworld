@@ -13,9 +13,11 @@
 		"@sveltejs/adapter-vercel": "next",
 		"@sveltejs/kit": "next",
 		"marked": "^4.0.0",
+		"prisma": "^3.10.0",
 		"svelte": "^3.42.1"
 	},
 	"dependencies": {
+		"@prisma/client": "^3.10.0",
 		"cookie": "^0.4.1"
 	}
 }
